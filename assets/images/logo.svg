@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <defs>
+    <linearGradient id="copperGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f49d6e" />
+      <stop offset="50%" stop-color="#e07a5f" />
+      <stop offset="100%" stop-color="#b8533b" />
+    </linearGradient>
+    <linearGradient id="sageBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e2c26" />
+      <stop offset="100%" stop-color="#121a16" />
+    </linearGradient>
+  </defs>
+
+  <!-- Outer Ring -->
+  <circle cx="250" cy="250" r="236" fill="url(#sageBg)" stroke="url(#copperGrad)" stroke-width="5" />
+  <circle cx="250" cy="250" r="218" fill="none" stroke="rgba(224, 122, 95, 0.4)" stroke-width="1.5" stroke-dasharray="6,4" />
+
+  <!-- Chef Pan & Whisk / Herb Sprig Emblem -->
+  <circle cx="250" cy="175" r="42" fill="none" stroke="url(#copperGrad)" stroke-width="4" />
+  <rect x="246" y="217" width="8" height="32" rx="4" fill="url(#copperGrad)" />
+  <!-- Monogram K -->
+  <text x="250" y="188" text-anchor="middle" font-family="'Playfair Display', Georgia, serif" font-size="38" font-weight="700" fill="url(#copperGrad)">K</text>
+
+  <!-- Divider -->
+  <line x1="120" y1="265" x2="380" y2="265" stroke="url(#copperGrad)" stroke-width="2" opacity="0.9" />
+  <circle cx="250" cy="265" r="4" fill="url(#copperGrad)" />
+
+  <!-- Typography -->
+  <text x="250" y="320" text-anchor="middle" font-family="'Playfair Display', Georgia, serif" font-size="30" font-weight="700" fill="#ffffff" letter-spacing="3">THE KITCHENETTE</text>
+  <text x="250" y="358" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#f49d6e" letter-spacing="6">ALIPORE &#8226; KOLKATA</text>
+  <text x="250" y="392" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="500" fill="rgba(255, 255, 255, 0.75)" letter-spacing="3">LUXURY COOKING STUDIO &#8226; PRIVATE EVENTS</text>
+</svg>
